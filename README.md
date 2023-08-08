@@ -93,9 +93,7 @@ console.log(Object.values(scrimbaUsers))
 ```
 
   __Resources:__
-	* 📖 [Using @font-face | CSS-Tricks](https://css-tricks.com/snippets/css/using-font-face/)
-
-* [ ] The **Web Safe Fonts** is an important concept. Web-safe fonts are fonts that are pre-installed by many operating systems. While not all systems have the same fonts installed, you can use a web-safe font stack to choose several fonts that look similar and are installed on the various systems that you want to support.
+	* 📖 [See more example here | W3School](https://www.w3schools.com/python/ref_dictionary_values.asp)
 
 **[⬆ back to top](#table-of-contents)**
 
