@@ -20,7 +20,7 @@
 
 > The **Endorsement Mobile App** is my fifth project in which I learned to use the Firebases and library to store/ push/ delete data.
 
-I start the Scrimba Module 2 course- Web dev basics and learn how to use a basic Firebase database. At the end of the course, I follow the Figma template to finish my first mobile app project, you can push the text on the comment, take a look at the → [My Hometown Homepage](https://shiuandai.github.io/Hometown-Homepage/).
+I start the Scrimba Module 2 course- Web dev basics and learn how to use a basic Firebase database. At the end of the course, I follow the Figma template to finish my first mobile app project, you can push the text on the comment, take a look at the → [Endorsement_Mobile_App](https://shiuandai.github.io/Endorsement_Mobile_App/).
 
 ## How I start the project?
 
@@ -35,13 +35,9 @@ I start the Scrimba Module 2 course- Web dev basics and learn how to use a basic
 
 Google Firebase is a set of cloud-based development tools that helps mobile app developers build, deploy and scale their apps. → [Why use Firebase?](https://www.techtarget.com/searchmobilecomputing/definition/Google-Firebase)
 
-### 1.1 - Structure design
+### 1.1 - How to get started?
 
-* [ ] **HTML** is "HyperText Markup Language" It defines the meaning and structure of web content. The Web Designer should keep the structure simple and the similar content should be grouped together to make sure it can be read clearly.
-	> ℹ️ [HTML] GET to know more about the definition. → [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
-
-* [ ] **Be familiar with the HTML Tag**. 
-* [ ] Before working on each website project, I can **build every template** with my own structure concept. Building the structure before everything else will facilitate my work afterward.
+* [ ] **First, you have to register an account** 1. Create a project 2. On the left side select realtime database 3. Create a database/pick a location that is close to you 4. Choose "test mode" 5. Copy the URL
 
 ```html
 <div class="container">
@@ -52,17 +48,34 @@ Google Firebase is a set of cloud-based development tools that helps mobile app 
 </div>
 ```
 
-⚠️ *Use the "container" to define which tags should be contained inside, they perform "active" when using the **flex-box**, it is a crucial method to foster the web structure building.* 
-
 **[⬆ back to top](#table-of-contents)**
 
-### 1.2 - Colors
+### 1.2 - Setup in JavaScript
 
-You can "SAVE" your color preference in your account. → [Color Palette](https://scrimba.com/links/hometown-palette)
+```js
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"
+//從url輸入initializeApp function
+import { getDatabase, ref, push } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
+//import前面這兩項的差別在於一個是import app一個是import database
 
-* [ ] **All colors used in the creatives are named** (RED: #E63946, LIGHT: #F1FAEE, AQUA: #A8DADC, LIGHT BLUE: #457B9D, DARK BLUE: #1D3557) which are provided by Scrimba course so that they become the basic color guideline to use in my project.
 
-* [ ] All of the most important/used **colors contrast** in the design to allow text with the background can be easily read.
+const appSettings = {
+    databaseURL: "https://playground-c5b18-default-rtdb.europe-west1.firebasedatabase.app"
+} //url從自己的firebase帳戶得到url
+const app = initializeApp(appSettings) //取得initializeApp function的argument
+const database = getDatabase(app) //取得database的值
+//what is ref which is any location inside the database
+const moviesInDB = ref(database, "movies")//選取database的來源，隨意命名
+
+const inputFieldEl = document.getElementById("input-field")
+const addButtonEl = document.getElementById("add-button")
+
+addButtonEl.addEventListener("click", function() {
+    let inputValue = inputFieldEl.value
+    push(moviesInDB, inputValue) //把inputValue的值加入到了moviesInDB的database
+    console.log(`${inputValue} added to database`)
+})
+```
 
 **[⬆ back to top](#table-of-contents)**
 
