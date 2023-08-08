@@ -39,14 +39,6 @@ Google Firebase is a set of cloud-based development tools that helps mobile app 
 
 * [ ] **First, you have to register an account** 1. Create a project 2. On the left side select realtime database 3. Create a database/pick a location that is close to you 4. Choose "test mode" 5. Copy the URL
 
-```html
-<div class="container">
-  <div class="row">
-    <div class="col-sm">
-    </div>
-  </div>
-</div>
-```
 
 **[⬆ back to top](#table-of-contents)**
 
