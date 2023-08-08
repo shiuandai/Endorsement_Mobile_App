@@ -134,7 +134,8 @@ function appendBookToBooksListEl(bookValue) {
     booksEl.innerHTML += `<li>${bookValue}</li>`
 }
 ```
-* [ ]  → [Official onValue() Documentation](https://firebase.google.com/docs/database/web/read-and-write) 
+* [ ]  → [Official onValue() Documentation](https://firebase.google.com/docs/database/web/read-and-write)
+
 
 ## 2. - Other techniques
 
