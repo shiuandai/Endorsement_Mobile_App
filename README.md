@@ -22,7 +22,7 @@
 
 I start the Scrimba Module 2 course- Web dev basics and learn how to use a basic Firebase database. At the end of the course, I follow the Figma template to finish my first mobile app project, you can push the text on the comment, take a look at the → [Endorsement_Mobile_App](https://shiuandai.github.io/Endorsement_Mobile_App/).
 
-## How I start the project?
+## How I start the project
 
 * Build from Scratch. → [Figma Template from Scrimba](https://www.figma.com/file/SgWlM7qkqTQa7fiGEcLKew/We-are-the-Champions?type=design&node-id=0-1&mode=design&t=5ELFpz5A5AhpKoqk-0)
 * Follow the Design.
