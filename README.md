@@ -8,13 +8,13 @@
 
 ## Table of Contents
 * **[1. What is Firebase?](#1---design-requirements)**
-	* [1.1 How to get started?](#11---grid-system)
-	* [1.2 Setup in JavaScript](#12---colors)
-	* [1.3 Extract the Data from the Object](#13---fonts-and-texts)
-	* [1.4 How to use onValue()](#14---publish-files)
-* **[2. Other techniques](#2---pre-work-phases)**
-	* [2.1 user-select property](#21---refine-the-project-using-CSS)
-* **[3. Web App manifest](#3---before-production)**
+	* [1.1 How to get started?](#11---How-to-get-started?)
+	* [1.2 Setup in JavaScript](#12---Setup-in-JavaScript)
+	* [1.3 Extract the Data from the Object](#13---Extract-the-Data-from-the-Object)
+	* [1.4 How to use onValue()](#14---How-to-use-onValue())
+* **[2. Other techniques](#2---Other-techniques)**
+	* [2.1 user-select property](#21---user-select-property)
+* **[3. Web App manifest](#3---Web-App-manifest)**
 
 ---
 
