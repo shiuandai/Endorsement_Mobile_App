@@ -98,23 +98,72 @@ console.log(Object.values(scrimbaUsers))
 **[⬆ back to top](#table-of-contents)**
 
 
-### 1.4 - Publish files
+### 1.4 - How to use onValue()
+To **read data** at a path and listen for changes, use onValue() to observe events. 
 
-* [ ] How to host your website, there are several ways. 1. **Netlify** provides next-generation web hosting and automation that's very affordable. Is can be integrated with Github for publishing the web easily. The alternative is using Github Page, my way is to use Github Page. → [Comparison of Github Page and Netlify](https://www.freecodecamp.org/news/publish-your-website-netlify-github/) 
+```js example
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"
+import { getDatabase, ref, onValue } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
+//onValue記得填寫
+const appSettings = {
+    databaseURL: "https://playground-c5b18-default-rtdb.europe-west1.firebasedatabase.app/"
+}
 
-## 2. - Pre-work phases
+const app = initializeApp(appSettings)
+const database = getDatabase(app)
+const booksInDB = ref(database, "books")
 
-### 2.1 - Refine the project using CSS
+const booksEl = document.getElementById("books")
 
-It is recommended to master the **flex-box** concept, it usually combines with different **Property** like **flex-direction: column; align-items: center;** .
+onValue(booksInDB, function(snapshot) {    //先輸入element再用逗點隔開輸入function()
+    let booksArray = Object.values(snapshot.val()) //以array的方式輸出
+		clearBooksListEl()
+    for (let i = 0; i < booksArray.length; i++) {
+        let currentBook = booksArray[i]
+        
+        // Challenge: Use the appendBookToBooksListEl() function to append book instead of console logging
+        appendBookToBooksListEl(currentBook)
+    }
+})
 
-Define what condition to use the flex-box, it influences how the content displayed.
+function clearBooksListEl() {
+    booksEl.innerHTML = ""
+}
 
-⚠️ *When using the flex-box, it is good to use the property of "gap" rather than "margin" to generate the gap.*
+function appendBookToBooksListEl(bookValue) {
+    booksEl.innerHTML += `<li>${bookValue}</li>`
+}
+```
+* [ ]  → [Official onValue() Documentation](https://firebase.google.com/docs/database/web/read-and-write) 
 
-## 3. - Before production
+## 2. - Other techniques
 
-Before launching your website, be sure to review all your code and make sure the text layout and comment it's easy to read for another programmer.
+### 2.1 - user-select property
+
+specifies **whether** the text of an element can be selected.
+
+```js example
+div {
+  user-select: none; //set to "none" means you cannot select the element
+}
+```
+
+## 3. - Web App manifest
+
+* [ ]  → [Good Explaination of Web App Manifest | MDN](https://developer.mozilla.org/zh-TW/docs/Web/Manifest) 
+```js example
+{
+    "name": "Cat App",
+    "short_name": "Cat App",
+    "icons":
+        [
+            {"src":"/android-chrome-192x192.png","sizes":"192x192","type":"image/png"},{"src":"/android-chrome-512x512.png","sizes":"512x512","type":"image/png"}
+        ],
+    "theme_color": "#ffffff",
+    "background_color": "#ffffff",
+    "display": "standalone"
+}
+```
 
 **[⬆ back to top](#table-of-contents)**
 
