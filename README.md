@@ -7,13 +7,13 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com) [![Join the chat at https://gitter.im/Front-End-Checklist/Front-End-Design-Checklist](https://badges.gitter.im/Front-End-Checklist/Front-End-Design-Checklist.svg)](https://gitter.im/Front-End-Checklist/Front-End-Design-Checklist) [![CC0](https://img.shields.io/badge/license-CC0-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 ## Table of Contents
-* **[1. What is Firebase?](#1---design-requirements)**
-	* [1.1 How to get started?](#11---How-to-get-started?)
+* **[1. What is Firebase](#1---What-is-Firebase)**
+	* [1.1 How to get started](#11---How-to-get-started)
 	* [1.2 Setup in JavaScript](#12---Setup-in-JavaScript)
 	* [1.3 Extract the Data from the Object](#13---Extract-the-Data-from-the-Object)
-	* [1.4 How to use onValue()](#14---How-to-use-onValue())
+	* [1.4 How to use onValue](#14---How-to-use-onValue)
 * **[2. Other techniques](#2---Other-techniques)**
-	* [2.1 user-select property](#21---user-select-property)
+	* [2.1 user select property](#21---user-select-property)
 * **[3. Web App manifest](#3---Web-App-manifest)**
 
 ---
@@ -31,7 +31,7 @@ I start the Scrimba Module 2 course- Web dev basics and learn how to use a basic
 
 ---
 
-## 1. - What is Firebase?
+## 1. - What is Firebase
 
 Google Firebase is a set of cloud-based development tools that helps mobile app developers build, deploy and scale their apps. → [Why use Firebase?](https://www.techtarget.com/searchmobilecomputing/definition/Google-Firebase)
 
@@ -98,7 +98,7 @@ console.log(Object.values(scrimbaUsers))
 **[⬆ back to top](#table-of-contents)**
 
 
-### 1.4 - How to use onValue()
+### 1.4 - How to use onValue
 To **read data** at a path and listen for changes, use onValue() to observe events. 
 
 ```js example
@@ -138,7 +138,7 @@ function appendBookToBooksListEl(bookValue) {
 
 ## 2. - Other techniques
 
-### 2.1 - user-select property
+### 2.1 - user select property
 
 specifies **whether** the text of an element can be selected.
 
