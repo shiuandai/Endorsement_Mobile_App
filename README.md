@@ -35,7 +35,7 @@ I start the Scrimba Module 2 course- Web dev basics and learn how to use a basic
 
 Google Firebase is a set of cloud-based development tools that helps mobile app developers build, deploy and scale their apps. → [Why use Firebase?](https://www.techtarget.com/searchmobilecomputing/definition/Google-Firebase)
 
-### 1.1 - How to get started?
+### 1.1 - How to get started
 
 * [ ] **First, you have to register an account** 1. Create a project 2. On the left side select realtime database 3. Create a database/pick a location that is close to you 4. Choose "test mode" 5. Copy the URL
 
