@@ -13,7 +13,7 @@
 	* [1.3 Extract the Data from the Object](#13---Extract-the-Data-from-the-Object)
 	* [1.4 How to use onValue](#14---How-to-use-onValue)
 * **[2. Other techniques](#2---Other-techniques)**
-	* [2.1 user select property](#21---user-select-property)
+	* [2.1 user select property](#21---user-select-property) 
 * **[3. Web App manifest](#3---Web-App-manifest)**
 
 ---
