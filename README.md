@@ -31,9 +31,9 @@ I start the Scrimba Module 2 course- Web dev basics and learn how to use a basic
 
 ---
 
-## 1. - Design requirements
+## 1. - What is Firebase?
 
-Designing a hometown homepage website requires following some rules and taking into consideration that the project is not only a graphic project but a web project too. The next sections are crucial for any web project.
+Google Firebase is a set of cloud-based development tools that helps mobile app developers build, deploy and scale their apps. → [Why use Firebase?](https://www.techtarget.com/searchmobilecomputing/definition/Google-Firebase)
 
 ### 1.1 - Structure design
 
