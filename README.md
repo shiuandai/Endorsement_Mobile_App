@@ -79,13 +79,18 @@ addButtonEl.addEventListener("click", function() {
 
 **[⬆ back to top](#table-of-contents)**
 
-### 1.3 - Fonts and texts
+### 1.3 - Extract the Data from the Object
 
-Fonts are an essential part of every design.
+Learn how to use **.values .keys .entries**
 
-It is recommended to organize the font size and style in the design process. There are several websites where the designer can download the font. ([Google font](https://fonts.google.com/)).
-
-* [ ] Using the technique **@font-face** in CSS, the link is embedded in the CSS. 
+```js example
+let scrimbaUsers = {
+    "00": "sindre@scrimba.com",
+    "01": "per@scrimba.com",
+    "02": "frode@scrimba.com"
+}
+console.log(Object.values(scrimbaUsers))
+```
 
   __Resources:__
 	* 📖 [Using @font-face | CSS-Tricks](https://css-tricks.com/snippets/css/using-font-face/)
