@@ -7,14 +7,14 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com) [![Join the chat at https://gitter.im/Front-End-Checklist/Front-End-Design-Checklist](https://badges.gitter.im/Front-End-Checklist/Front-End-Design-Checklist.svg)](https://gitter.im/Front-End-Checklist/Front-End-Design-Checklist) [![CC0](https://img.shields.io/badge/license-CC0-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
 
 ## Table of Contents
-* **[1. Design requirements](#1---design-requirements)**
-	* [1.1 Structure Design](#11---grid-system)
-	* [1.2 Colors](#12---colors)
-	* [1.3 Fonts and texts](#13---fonts-and-texts)
-	* [1.4 Publish files](#14---publish-files)
-* **[2. Pre-work phases](#2---pre-work-phases)**
-	* [2.1 Refine the project using CSS](#21---refine-the-project-using-CSS)
-* **[3. Before production](#3---before-production)**
+* **[1. What is Firebase?](#1---design-requirements)**
+	* [1.1 How to get started?](#11---grid-system)
+	* [1.2 Setup in JavaScript](#12---colors)
+	* [1.3 Extract the Data from the Object](#13---fonts-and-texts)
+	* [1.4 How to use onValue()](#14---publish-files)
+* **[2. Other techniques](#2---pre-work-phases)**
+	* [2.1 user-select property](#21---refine-the-project-using-CSS)
+* **[3. Web App manifest](#3---before-production)**
 
 ---
 
