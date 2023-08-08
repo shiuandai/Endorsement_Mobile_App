@@ -1,7 +1,7 @@
 <h2 align="center">Endorsement_Mobile_App</h2>
 
 <p align="center">
-  <em> The Endorsement Mobile App is my first project of the Scrimba Front-End course, in this course, I build App designs from scratch and structure the code to finish the layout design.</em>
+  <em> The Endorsement Mobile App is my fifth project of the Scrimba Front-End course, in this course, I build App designs from scratch and structure the code to finish the layout design.</em>
 </p>
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com) [![Join the chat at https://gitter.im/Front-End-Checklist/Front-End-Design-Checklist](https://badges.gitter.im/Front-End-Checklist/Front-End-Design-Checklist.svg)](https://gitter.im/Front-End-Checklist/Front-End-Design-Checklist) [![CC0](https://img.shields.io/badge/license-CC0-green.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
