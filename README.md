@@ -20,7 +20,7 @@
 
 > The **Endorsement Mobile App** is my fifth project in which I learned to use the Firebases and library to store/ push/ delete data.
 
-I start the Scrimba Module 2 course- Web dev basics and learn how to use a basic Firebase database. At the end of the course, I follow the Figma template to finish my first mobile app project, you can push the text on the comment, take a look at the → [Endorsement_Mobile_App](https://shiuandai.github.io/Endorsement_Mobile_App/).
+I start the Scrimba Module 3 course- Making websites interactive and learning how to use a basic Firebase database. At the end of the course, I follow the Figma template to finish my first mobile app project, you can push the text on the comment, take a look at the → [Endorsement_Mobile_App](https://shiuandai.github.io/Endorsement_Mobile_App/).
 
 ## How I start the project
 
